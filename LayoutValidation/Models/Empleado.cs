@@ -37,7 +37,7 @@ namespace LayoutValidation.Models
     {
         public override bool IsValid(object value)
         {
-            string mail = value.ToString();
+            string mail = value != null ? value.ToString() : "";
 
             bool resultado;
 
