@@ -1,0 +1,28 @@
+﻿
+@{
+    ViewBag.Title = "Bievenido";
+    Layout = "~/Views/Shared/_Plantilla.cshtml";
+}
+
+@section myfooter
+{
+    <div>Este es mi footerrrrr</div>
+}
+
+
+@{
+    Html.RenderPartial("_MensajeBienvenida"); 
+ }
+
+@Html.Partial("_MensajeBienvenida")
+
+<h3>Este es el sitio de bienvenida</h3>
+<hr />
+<hr />
+
+<table>
+    <tr>
+        <td></td>
+    </tr>
+</table>
+
